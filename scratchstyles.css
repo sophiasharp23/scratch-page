@@ -1,0 +1,185 @@
+.unbold {
+    font-weight: 100
+}
+
+.italic {
+    font-style: italic
+}
+
+.weight {
+    font-weight: 400
+}
+
+/*layout*/
+
+.common {
+    border: 2px solid white;
+    position: absolute;
+}
+    
+.header {
+    top: 30px;
+    left: 5px;
+    right: 5px;
+    height: 110px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    border: none;
+    padding: none;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+.banner {
+    width: 100%;
+    background-color: #3c493a;
+    height: 145px;
+
+}
+
+.leftmenu {
+    top: 155px;
+    left: 5px;
+    width: 100px;
+    z-index: 1;
+    height: 2830px;
+    border-right: solid 1px #555555;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: none;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.leftbanner {
+    color: #93a191;
+    width: 100px;
+    height: 100vh;
+}
+
+.mainbody {
+    top: 155px;
+    left: 120px;
+    right: 120px;
+    bottom: 39px;
+    padding: 10px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.rightmenu {
+    top: 155px;
+    right: 5px;
+    width: 100px;
+    height: 2830px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer {
+    bottom: 10px;
+    right: 5px;
+    left: 5px;
+    font-size: 10px;
+    height: 25px;
+    color: white;
+    background-color: #3c493a;
+    text-align: center;
+    position: fixed;
+    border: none;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 17px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    border: none;
+    color: white;
+}
+
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 17px; 
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    border: none;
+    color: white;
+    padding-top: 20px;
+    z-index: 10;
+}
+
+
+.subheader {
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    height: 80px;
+    z-index: 2;
+    text-align: center;
+    padding-top: 95px;
+    border: none;
+    color: white;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.paragraph {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+div, p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;  /* Centers the images horizontally */
+    align-items: center;      /* Centers the images vertically (optional, if needed) */
+}
+
+.image-container img {
+    max-width: 45%;          /* Ensures images are responsive */
+    height: auto;  
+}
+
+
+.toplink {
+    color: white;
+    text-decoration: none;
+}
+
+.sidelink {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    padding: none;
+    text-align: center;
+}
+
+.tableau {
+    width: 600px;
+    text-align: center;
+    width: 900px;        /* Fixed width */
+    height: 1100px;       /* Fixed height */
+    margin: 0 auto;      /* Horizontal centering */
+    display: flex;
+    justify-content: center;  
+}
